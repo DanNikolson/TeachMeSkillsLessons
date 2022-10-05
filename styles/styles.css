@@ -170,10 +170,23 @@ h6 {
 
 .banner .banner_section button:hover {
     cursor: pointer;
+    background: #E71414;
+    transition: 0.5s;
+}
+.banner .banner_section button:active {
+    cursor: pointer;
+    background: #FF4343;
+    box-shadow: 4px 4px 30px #FF4343;
+    transition: 0.5s;
 }
 
 .top-nav-container button:hover {
     border-bottom: 3px solid silver;
+}
+.top-nav-container button:active {
+    color: #E71414;
+    border-bottom: 3px solid #E71414;
+    transition: 0.4s;
 }
 
 .features_container {
@@ -216,7 +229,6 @@ div.features>div h5 {
 }
 
 .work_photos {
-    border: 1px solid black;
     height: 79vh;
     display: grid;
     grid-template-columns: repeat(4, 2fr);
@@ -224,20 +236,94 @@ div.features>div h5 {
     align-items: center;
     justify-items: center;
     gap: 2px;
-    padding: 0px; 
+    padding: 0px;
     transition-duration: 0.5s;
 }
 
-.work_photos a,img{
+.work_photos a,
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.work_photos a>img:hover{
+
+.work_photos a>img:hover {
     transition: 0.8s;
     opacity: 0.5;
 }
-.work_photos a:hover{
-    background: rgba(255, 67, 67);
+
+.work_photos a:hover {
+    background: rgb(255, 67, 67);
     z-index: 1;
+}
+
+.work_photos a>img:active {
+    transition: 1.2s;
+    opacity: 0.1;
+}
+
+.work_photos a:active {
+    background: rgb(185, 12, 12)
+}
+.work_text{
+    opacity: 1;
+    z-index: -1;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    height: 40%;
+    width: 25.8%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 0;
+}
+.work_text h4{
+    text-transform: uppercase;
+}
+.work_text h5{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.our_team{
+    border: 2px solid black;
+    max-width: 1510px;
+}
+.profiles{
+    display: grid;
+    grid-template-columns:repeat(4,2fr);
+    grid-template-rows: repeat(2, 2fr);
+    height: 90vh;
+    padding: 5rem 7rem;
+    gap: 4rem 2rem;
+}
+.worker_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.worker_info h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.worker_info h5{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.post{
+    color: #FF4343;
+    text-transform: uppercase;
+}
+.emblems{
+    border: 1px solid silver;
+    display: flex;
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
 }
