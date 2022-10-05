@@ -272,8 +272,8 @@ img {
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-    height: 40%;
-    width: 25.8%;
+    height: 40vh;
+    width: 20vw;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -290,7 +290,6 @@ img {
     line-height: 21px;
 }
 .our_team{
-    border: 2px solid black;
     max-width: 1510px;
 }
 .profiles{
@@ -310,20 +309,33 @@ img {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+    margin-bottom: 1vh;
 }
 .worker_info h5{
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    margin-bottom: 4vh;
 }
 .post{
     color: #FF4343;
     text-transform: uppercase;
 }
 .emblems{
-    border: 1px solid silver;
     display: flex;
-    width: 10%;
-    height: 10%;
-    object-fit: cover;
+    gap: 0.6rem;
+    width: 21%;
+    height: 12%;
+}
+.emblems img{
+    border: 1px solid#C6CBCD;
+}
+.emblems #facebook{
+    padding: 0.6rem 0.9rem;
+}
+.emblems #twitter{
+    padding: 0.6rem 0.5rem;
+}
+.emblems #linkedin{
+    padding: 0.5rem;
 }
