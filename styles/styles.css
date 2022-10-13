@@ -174,9 +174,12 @@ h6 {
     border-bottom: 3px solid silver;
 }
 
-.top-nav-container button:active {
-    color: #E71414;
+.top-nav-container:active {
     border-bottom: 3px solid #E71414;
+    transition: 0.4s;
+}
+.top-nav-container button:active{
+    color: #E71414;
     transition: 0.4s;
 }
 
