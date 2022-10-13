@@ -537,7 +537,7 @@ img {
             outline-offset: -5px;
         }
     }
-
+}
 
     .slider_nav:checked {
         animation: check .5s linear forwards;
