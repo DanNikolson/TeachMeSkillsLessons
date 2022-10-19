@@ -28,7 +28,7 @@
                 <a href="#Our team">Our team</a>
                 <a href="#Testimonials">Testimonials</a>
                 <a href="#Download">Download</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFuction()">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
                 <!-- <ul class="main_menu">
@@ -52,11 +52,13 @@
         </div>
     </header>
     <div class="banner">
-        <section class="banner_section">
-            <h1>Your Favorite One Page Multi Purpose Template</h1>
-            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
-                vel scelerisque nisl consectetur et.</h6>
-            <button type="button" onclick="location.href='../img/filler/1.mp4';" id="UP_900">find out more</button>
+        <section class="banner_section" id="myBanner">
+            <div class="banner_center">
+                <h1>Your Favorite One Page Multi Purpose Template</h1>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
+                    vel scelerisque nisl consectetur et.</h6>
+                <button type="button" onclick="location.href='../img/filler/1.mp4';" id="UP_900">find out more</button>
+            </div>
         </section>
     </div>
     <main>
@@ -397,10 +399,14 @@
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
+            var y = document.getElementById("myBanner")
+            if ((x.className === "topnav") && (y.className === "banner_section")) {
                 x.className += " responsive";
+                y.className += " responsive";
             } else {
                 x.className = "topnav";
+                y.className = "banner_section";
+
             }
         }
     </script>
