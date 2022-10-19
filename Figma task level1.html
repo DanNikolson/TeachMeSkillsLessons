@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Figma_level_1</title>
 </head>
 
@@ -21,8 +22,16 @@
                     <img src="/img/active box/BOX.svg" id="box">
                 </a>
             </div>
-            <nav>
-                <ul class="main_menu">
+            <nav class="topnav" id="myTopnav">
+                <a href="#Features">Features</a>
+                <a href="#Works">Works</a>
+                <a href="#Our team">Our team</a>
+                <a href="#Testimonials">Testimonials</a>
+                <a href="#Download">Download</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFuction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <!-- <ul class="main_menu">
                     <li class="top-nav-container">
                         <button type="button" onclick="location.href='../img/filler/1.mp4';">features</button>
                     </li>
@@ -38,7 +47,7 @@
                     <li class="top-nav-container">
                         <button type="button" onclick="location.href='../img/filler/1.mp4';">Download</button>
                     </li>
-                </ul>
+                </ul> -->
             </nav>
         </div>
     </header>
@@ -385,6 +394,16 @@
             </h5>
         </div>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
