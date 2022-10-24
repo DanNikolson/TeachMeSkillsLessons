@@ -368,16 +368,14 @@ div.features>div img {
 .left_side {
     width: 49.0728%;
 }
-.left_background{
-    background-size: 100% 100%;
-}
-
 .ls1 {
     background: url(../img/testimonials/testimonials-left.png) no-repeat;
+    background-size: 100% 100%;
 }
 
 .ls2 {
     background: url(../img/testimonials/gigachad-1.jpg) no-repeat;
+    background-size: 100% 100%;
 }
 
 .rs {
@@ -386,14 +384,17 @@ div.features>div img {
 
 .ls3 {
     background: url(../img/testimonials/smile.png) no-repeat;
+    background-size: 100% 100%;
 }
 
 .ls4 {
     background: url(../img/testimonials/cat.jpg) no-repeat;
+    background-size: 100% 100%;
 }
 
 .ls5 {
     background: url(../img/testimonials/Thanos.png) no-repeat;
+    background-size: 100% 100%;
 }
 
 .right_side_text {
