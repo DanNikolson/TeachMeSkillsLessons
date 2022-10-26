@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Figma_level_1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/bootstrap_override.css">
 </head>
 
 <body>
@@ -40,7 +43,8 @@
                 <h1>Your Favorite One Page Multi Purpose Template</h1>
                 <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
                     vel scelerisque nisl consectetur et.</h6>
-                <button class="UP_900" type="button" onclick="location.href='../img/filler/1.mp4';">find out more</button>
+                <button class="UP_900" type="button" onclick="location.href='../img/filler/1.mp4';">find out
+                    more</button>
             </div>
         </section>
     </div>
@@ -49,7 +53,7 @@
             <div class="features">
                 <div class="feature1">
                     <img src="../img/features/feature1.svg">
-                    <h4 class ="UP_900">
+                    <h4 class="UP_900">
                         Easily Customised
                     </h4>
                     <h5 id="UP_400">
@@ -59,7 +63,7 @@
                 </div>
                 <div class="feature2">
                     <img src="../img/features/feature2.svg">
-                    <h4 class ="UP_900">
+                    <h4 class="UP_900">
                         Responsive Ready
                     </h4>
                     <h5 class="UP_400">
@@ -270,6 +274,39 @@
             </div>
         </section>
         <section class="testimonials">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/testimonials/testimonials-left.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/testimonials/gigachad-1.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/testimonials/smile.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/testimonials/cat.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/testimonials/Thanos.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="testimonials">
             <div class="slider_outer">
                 <input type="radio" name="slider" title="slide1" class="slider_nav" checked autofocus>
                 <input type="radio" name="slider" class="slider_nav">
@@ -335,12 +372,13 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="download">
             <div class="download_section">
                 <h3>Are You Ready to Start? Download Now For Free!</h3>
                 <h5 class="down">Fusce dapibus, tellus ac cursus commodo</h5>
-                <button class="UP_900" type="button" onclick="location.href='../img/filler/1.mp4';" id="UP_900">download here</button>
+                <button class="UP_900" type="button" onclick="location.href='../img/filler/1.mp4';" id="UP_900">download
+                    here</button>
             </div>
         </section>
     </main>
@@ -396,6 +434,9 @@
             }
         }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

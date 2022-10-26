@@ -292,7 +292,7 @@ div.features>div img {
     height: 139.3%;
 }
 
-.slider_outer {
+/* .slider_outer {
     position: relative;
     overflow: hidden;
     height: 33.438rem;
@@ -420,7 +420,7 @@ div.features>div img {
     font-size: 0.8125rem;
     line-height: 0.9375rem;
     text-transform: uppercase;
-}
+} */
 
 .download {
     height: 31.063rem;

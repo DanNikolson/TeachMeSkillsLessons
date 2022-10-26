@@ -1,0 +1,26 @@
+.carousel{
+    height: 33.438rem;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    border: 1px solid #7E5D6F;
+    width: 14px;
+    height: 14px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.carousel-indicators .active{
+    background-color: #7E5D6F;
+    background-clip: unset;
+}
+.carousel-item{
+    background-color: #5C3249;
+    height: 91.588%;
+    
+}
+.carousel-item img{
+height: 100%;
+}
