@@ -39,14 +39,6 @@ header {
     width: 100%;
     position: absolute;
 }
-
-head,
-body,
-footer {
-    max-width: 1510px;
-    margin: 0 auto;
-}
-
 .UP_900 {
     font-weight: 900;
     font-size: 1.5rem;
@@ -292,136 +284,6 @@ div.features>div img {
     height: 139.3%;
 }
 
-/* .slider_outer {
-    position: relative;
-    overflow: hidden;
-    height: 33.438rem;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.slider_nav {
-    width: 0.875rem;
-    height: 0.875rem;
-    margin: 0 0.78125rem;
-    cursor: pointer;
-    border-radius: 50%;
-    z-index: 10;
-    outline: 1px solid #7E5D6F;
-    outline-offset: -1px;
-    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgb(51 51 51 / 0%);
-    appearance: none;
-}
-
-@keyframes check {
-    50% {
-        outline: 7px solid #7E5D6F;
-        outline-offset: -7px;
-    }
-
-    100% {
-        outline: 7px solid #7E5D6F;
-        outline-offset: -7px;
-    }
-}
-
-.slider_nav:checked {
-    animation: check .5s linear forwards;
-}
-
-.slider_nav:checked:nth-of-type(1)~.slider_inner {
-    left: 0%;
-}
-
-.slider_nav:checked:nth-of-type(2)~.slider_inner {
-    left: -100%;
-}
-
-.slider_nav:checked:nth-of-type(3)~.slider_inner {
-    left: -200%;
-}
-
-.slider_nav:checked:nth-of-type(4)~.slider_inner {
-    left: -300%;
-}
-
-.slider_nav:checked:nth-of-type(5)~.slider_inner {
-    left: -400%;
-}
-
-.slider_inner {
-    position: absolute;
-    top: 0;
-    height: 91.5887%;
-    transition: left 0.4s;
-    display: flex;
-}
-
-.slide {
-    display: flex;
-    width: 94.375rem;
-    color: #FFFFFF;
-    background-color: #5C3249;
-}
-
-.left_side {
-    width: 49.0728%;
-}
-.left_background{
-    background-size: 100% 100%;
-}
-
-.ls1 {
-    background: url(../img/testimonials/testimonials-left.png) no-repeat;
-}
-
-.ls2 {
-    background: url(../img/testimonials/gigachad-1.jpg) no-repeat;
-}
-
-.rs {
-    background-color: gray;
-}
-
-.ls3 {
-    background: url(../img/testimonials/smile.png) no-repeat;
-}
-
-.ls4 {
-    background: url(../img/testimonials/cat.jpg) no-repeat;
-}
-
-.ls5 {
-    background: url(../img/testimonials/Thanos.png) no-repeat;
-}
-
-.right_side_text {
-    display: flex;
-    width: 50.9271%;
-    padding: 0 10%;
-    gap: 7%;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.right_side_text h2 {
-    font-family: 'Cardo', serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 2.25rem;
-    line-height: 3.0625rem;
-    text-transform: capitalize;
-}
-
-.right_side_text h6 {
-    font-weight: 700;
-    font-size: 0.8125rem;
-    line-height: 0.9375rem;
-    text-transform: uppercase;
-} */
-
 .download {
     height: 31.063rem;
 }
@@ -616,41 +478,6 @@ footer {
         justify-content: space-evenly;
     }
 
-    .slider_outer {
-        height: 22.843rem;
-    }
-
-    .slider_nav {
-        width: 9.49px;
-        height: 9.49px;
-    }
-
-    @keyframes check {
-        50% {
-            outline: 4.5px solid #7E5D6F;
-            outline-offset: -5px;
-        }
-
-        100% {
-            outline: 4.5px solid #7E5D6F;
-            outline-offset: -5px;
-        }
-    }
-
-    .slide {
-        width: 64rem;
-    }
-
-    .right_side_text h6 {
-        font-size: 0.75rem;
-        line-height: 0.875rem;
-    }
-
-    .right_side_text h2 {
-        font-size: 1.5rem;
-        line-height: 2rem;
-    }
-
     .download {
         height: 24.558rem;
     }
@@ -797,28 +624,6 @@ footer {
         margin: 0% 0% 0% 9%;
         flex-direction: column;
         gap: 3%;
-    }
-
-    .slider_outer {
-        height: 35.656rem;
-    }
-
-    .slide {
-        width: 20rem;
-        flex-direction: column;
-    }
-
-    .left_side {
-        height: 39.4052%;
-        width: 100%;
-    }
-
-    .right_side_text {
-        height: 60.5947%;
-        width: 100%;
-        padding: 7% 7%;
-        text-align: center;
-        justify-content: start;
     }
 
     .download {
