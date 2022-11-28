@@ -1,5 +1,11 @@
 <?php
-$str = 'abcde';
-$num = 3;
-echo "Символ с индексом $num равен $str[3].";
+$N = readline("Введите число:");
+if($N < 1) echo 'Число должно быть больше 1';
+else {
+$sum = 0;
+for ($i = 2; $i <= $N; $i++){
+    $sum += $i * $i;
+}
+echo $sum;
+}
 ?>
