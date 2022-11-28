@@ -1,8 +1,17 @@
 <?php
-// Способ через деление
-$a = 871;
-$b = $a%10;
-$c=(($a%100)-$b)/10;
-$d=($a-($c*10)-$b)/100;
-echo "Сумма всех цифр равна " .($b+$c+$d);
+//разбиваем строку на массив, перебираем, ищем длинное слово
+$string = readline("Введите строку:");
+$words = explode(" ", $string);
+
+$longestWordLength = 0;
+$longestWord = '';
+
+foreach ($words as $word) {
+    if (strlen($word) > $longestWordLength) {
+        $longestWordLength = strlen($word);
+        $longestWord = $word;
+    }
+}
+echo $longestWord;
+
 ?>
