@@ -1,17 +1,6 @@
 <?php
-//разбиваем строку на массив, перебираем, ищем длинное слово
-$string = readline("Введите строку:");
-$words = explode(" ", $string);
-
-$longestWordLength = 0;
-$longestWord = '';
-
-foreach ($words as $word) {
-    if (strlen($word) > $longestWordLength) {
-        $longestWordLength = strlen($word);
-        $longestWord = $word;
-    }
-}
-echo $longestWord;
-
+//5. Сформируйте массив из слов введенных пользователем. Выведите полученный массив на экран.
+$vashi_slova = readline('Введите ваши слова, а я сделаю из них массив:');
+$slova = explode(" ", $vashi_slova);
+print_r($slova);
 ?>
